@@ -1,0 +1,81 @@
+html {
+    max-width: 750px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+body {
+    margin: auto;
+    margin-top: 10px;
+}
+
+#boxes-container {
+    background-color: lightblue;
+    max-width: 600px;
+    height: 80px;
+    max-height: 80%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#left-box {
+    border: solid 3px gray;
+    background-color: lightgray;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 40%;
+    float: left;
+    border-radius: 5px;
+    height: 55px;
+}
+
+#right-box {
+    border: solid 3px gray;
+    background-color: lightgray;
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 5%;
+    width: 40%;
+    float: right;
+    border-radius: 5px;
+    height: 55px;
+}
+
+#word1, #word2 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#button-section {
+    border-radius: 0px 0px 5px 5px;
+    border-top: none;
+    background-color: lightblue;
+    margin: auto;
+    max-width: 600px;
+    padding-bottom: 8px;
+}
+
+#random-button {
+    text-align: center;
+    max-height: 25px;
+}
+
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    max-width: 115px;
+    max-height: 25px;
+    background: #4E9CAF;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    margin: auto;
+    margin-bottom: 10px;
+    line-height: 1em;
+    padding: 0px;
+}
