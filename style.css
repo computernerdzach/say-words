@@ -2,15 +2,23 @@ html {
     max-width: 750px;
     margin: auto;
     font-family: sans-serif;
+    background-attachment: fixed;
+    height: 100%;
+    background: linear-gradient(antiquewhite, lightblue);
 }
 
 body {
+    background-color: lightblue;
     margin: auto;
     margin-top: 10px;
+    border-bottom: solid gray;
+    border-right: solid gray;
+    border-left: solid antiquewhite;
+    border-top: solid antiquewhite;
 }
 
 #boxes-container {
-    background-color: lightblue;
+    
     max-width: 600px;
     height: 80px;
     max-height: 80%;
@@ -19,28 +27,27 @@ body {
     border-radius: 5px 5px 0px 0px;
 }
 
-#left-box {
-    border: solid 3px gray;
-    background-color: lightgray;
+#left-box, #right-box {
     margin: auto;
     margin-top: 10px;
-    margin-left: 5%;
     width: 40%;
-    float: left;
     border-radius: 5px;
     height: 55px;
+    border-top: solid gray;
+    border-left: solid gray;
+    border-right: solid antiquewhite;
+    border-bottom: solid antiquewhite;
+    background: linear-gradient(30deg, #f2f3f4, #c8e7f2);
+}
+
+#left-box {
+    margin-left: 5%;
+    float: left;
 }
 
 #right-box {
-    border: solid 3px gray;
-    background-color: lightgray;
-    margin: auto;
-    margin-top: 10px;
     margin-right: 5%;
-    width: 40%;
     float: right;
-    border-radius: 5px;
-    height: 55px;
 }
 
 #word1, #word2 {
@@ -51,7 +58,7 @@ body {
 #button-section {
     border-radius: 0px 0px 5px 5px;
     border-top: none;
-    background-color: lightblue;
+    /* background-color: lightblue; */
     margin: auto;
     max-width: 600px;
     padding-bottom: 8px;
@@ -71,7 +78,7 @@ body {
     background: #4E9CAF;
     text-align: center;
     border-radius: 5px;
-    color: white;
+    color: antiquewhite;
     font-weight: bold;
     line-height: 25px;
     margin: auto;
