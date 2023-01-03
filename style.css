@@ -5,12 +5,12 @@
 }
 
 html {
-    max-width: 750px;
     margin: auto;
     font-family: sans-serif;
     background-attachment: fixed;
     height: 100%;
-    background: linear-gradient(antiquewhite, lightblue);
+    background: linear-gradient(150deg, antiquewhite, lightblue);
+    background-repeat: no-repeat;
     min-height: 200px;
     min-height: 80vh;
 
@@ -47,7 +47,7 @@ body {
     border-left: solid #7798b1;
     border-right: solid #c8e7f2;
     border-bottom: solid #c8e7f2;
-    background: linear-gradient(30deg, #f2f3f4, #c8e7f2);
+    background: linear-gradient(-30deg, #f2f3f4, #c8e7f2);
 }
 
 #left-box {
@@ -62,7 +62,7 @@ body {
 
 #word1, #word2 {
     text-align: center;
-    padding: 20px 0;
+    padding: 7%;
 }
 
 #button-section {
