@@ -4,27 +4,31 @@
     box-sizing: border-box;
 }
 
-html {
+html, body {
     margin: auto;
+}
+
+html {
     font-family: sans-serif;
     background-attachment: fixed;
     height: 100%;
     background: linear-gradient(150deg, antiquewhite, lightblue);
     background-repeat: no-repeat;
-    min-height: 200px;
-    min-height: 80vh;
-
+    
 }
 
 body {
     background-color: lightblue;
-    margin: auto;
-    margin-top: 10px;
     border-bottom: solid #7798b1;
     border-right: solid #7798b1;
     border-left: solid #c8e7f2;
     border-top: solid #c8e7f2;
     max-width: 80vw;
+    border-radius: 5px;
+}
+
+body, #boxes-container {
+    margin-top: 10px;
 }
 
 #boxes-container {
@@ -33,8 +37,6 @@ body {
     height: 80px;
     max-height: 80%;
     margin: auto;
-    margin-top: 10px;
-    border-radius: 5px 5px 0px 0px;
 }
 
 #left-box, #right-box {
@@ -68,13 +70,12 @@ body {
 #button-section {
     border-radius: 0px 0px 5px 5px;
     border-top: none;
-    /* background-color: lightblue; */
     margin: auto;
     max-width: 600px;
     padding-bottom: 8px;
 }
 
-#random-button {
+#random-button, .button {
     text-align: center;
     max-height: 25px;
 }
@@ -84,17 +85,13 @@ body {
     width: 115px;
     height: 25px;
     max-width: 115px;
-    max-height: 25px;
     background: #4E9CAF;
-    text-align: center;
     border-radius: 5px;
     color: antiquewhite;
     font-weight: bold;
     line-height: 25px;
     margin: auto;
-    margin-bottom: 10px;
     line-height: 1em;
-    padding: 0px;
     border-top: #c8e7f2 solid 2px;
     border-left: #c8e7f2 solid 2px;
     border-bottom: solid #7798b1;
