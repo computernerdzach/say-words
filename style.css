@@ -66,9 +66,7 @@ body, #boxes-container {
 #word1, #word2 {
     text-align: center;
     padding: 7%;
-    /* color: #3c3b6e; */
     color: antiquewhite;
-    /* border: solid 1px #3c3b6e; */
     font-weight: bold;
     font-size: large;
     text-shadow:
