@@ -11092,9 +11092,8 @@
                 'Zythepsary',
                 'Zythum'
               ]
-
-              const element = document.getElementById("randomButton");
-              element.addEventListener("click", getWords);
+              
+              document.getElementById("randomButton").addEventListener("click", getWords);
 
               function getRandomInt(max) {
                 return Math.floor(Math.random() * max);
@@ -11104,7 +11103,7 @@
                 document.getElementById("word1").innerText = nouns[getRandomInt(nouns.length)];
                 document.getElementById("word2").innerText = nouns[getRandomInt(nouns.length)];
               }
-              
+
             </script>
         </div>
         
