@@ -110,3 +110,17 @@ body, #boxes-container {
     border-bottom: solid #7798b1;
     border-right: solid #7798b1;
 }
+
+@media screen and (max-width:600px) {
+    #word1, #word2 {
+        font-size: medium;
+    }
+    
+}
+
+@media screen and (max-width:480px) {
+    #word1, #word2 {
+        font-size: small;
+    }
+    
+}
