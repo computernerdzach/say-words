@@ -1,3 +1,9 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     max-width: 750px;
     margin: auto;
@@ -5,16 +11,20 @@ html {
     background-attachment: fixed;
     height: 100%;
     background: linear-gradient(antiquewhite, lightblue);
+    min-height: 200px;
+    min-height: 80vh;
+
 }
 
 body {
     background-color: lightblue;
     margin: auto;
     margin-top: 10px;
-    border-bottom: solid gray;
-    border-right: solid gray;
-    border-left: solid antiquewhite;
-    border-top: solid antiquewhite;
+    border-bottom: solid #7798b1;
+    border-right: solid #7798b1;
+    border-left: solid #c8e7f2;
+    border-top: solid #c8e7f2;
+    max-width: 80vw;
 }
 
 #boxes-container {
@@ -33,10 +43,10 @@ body {
     width: 40%;
     border-radius: 5px;
     height: 55px;
-    border-top: solid gray;
-    border-left: solid gray;
-    border-right: solid antiquewhite;
-    border-bottom: solid antiquewhite;
+    border-top: solid #7798b1;
+    border-left: solid #7798b1;
+    border-right: solid #c8e7f2;
+    border-bottom: solid #c8e7f2;
     background: linear-gradient(30deg, #f2f3f4, #c8e7f2);
 }
 
@@ -85,4 +95,8 @@ body {
     margin-bottom: 10px;
     line-height: 1em;
     padding: 0px;
+    border-top: #c8e7f2 solid 2px;
+    border-left: #c8e7f2 solid 2px;
+    border-bottom: solid #7798b1;
+    border-right: solid #7798b1;
 }

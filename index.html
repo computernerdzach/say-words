@@ -11101,23 +11101,10 @@
               }
 
               function getWords() {
-                console.log('TEST');
-                var box1 = document.getElementById("word1");
-                var box2 = document.getElementById("word2");
-
-                num1 = Math.random(0, nouns.length);
-                num2 = Math.random(0, nouns.length);
-                console.log(num1);
-                console.log(num2);
-
-                let word1 = nouns[getRandomInt(nouns.length)];
-                let word2 = nouns[getRandomInt(nouns.length - 1)];
-                console.log(word1);
-                console.log(word2);
-
-                box1.innerText = word1;
-                box2.innerText = word2;
+                document.getElementById("word1").innerText = nouns[getRandomInt(nouns.length)];
+                document.getElementById("word2").innerText = nouns[getRandomInt(nouns.length)];
               }
+              
             </script>
         </div>
         
