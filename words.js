@@ -1,4 +1,4 @@
-export const other_nouns = [
+export const nouns = [
     'account',
     'act',
     'adjustment',
