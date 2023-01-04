@@ -63,13 +63,8 @@ body, #boxes-container {
     float: right;
 }
 
-/* #gameName {
-    text-align: center;
-} */
-
 #word1, #word2, #gameName {
     text-align: center;
-    /* padding: 7%; */
     color: antiquewhite;
     font-weight: bold;
     font-size: large;
@@ -83,7 +78,6 @@ body, #boxes-container {
         -1px  1px 0 #3c3b6e,
         -1px  0   0 #3c3b6e;
     letter-spacing: 2px;
-    /* height: 100%; */
     padding: 11px;
 }
 
@@ -120,7 +114,7 @@ body, #boxes-container {
 
 @media screen and (max-width:600px) {
     #word1, #word2 {
-        font-size: medium;
+        font-size: small;
         vertical-align: middle;
         padding: 13px;
     }
@@ -129,7 +123,7 @@ body, #boxes-container {
 
 @media screen and (max-width:480px) {
     #word1, #word2 {
-        font-size: small;
+        font-size:x-small;
         padding: 15px;
     }
     
