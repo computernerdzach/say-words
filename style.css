@@ -24,7 +24,8 @@ body {
     border-right: solid #7798b1;
     border-left: solid #c8e7f2;
     border-top: solid #c8e7f2;
-    max-width: 80vw;
+    width: 80vw;
+    max-width: 600px;
     border-radius: 5px;
 }
 
