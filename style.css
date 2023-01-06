@@ -34,14 +34,13 @@ body, #boxes-container {
 }
 
 #boxes-container {
-    
     max-width: 600px;
     height: 80px;
     max-height: 80%;
     margin: auto;
 }
 
-#left-box, #right-box {
+#left-box, #right-box, #word-log, #inbox1, #inbox2 {
     margin: auto;
     margin-top: 10px;
     width: 40%;
@@ -54,6 +53,19 @@ body, #boxes-container {
     background: linear-gradient(-30deg, #f2f3f4, #c8e7f2);
 }
 
+#inbox1, #inbox2 {
+    height: 24px;
+}
+
+#word-log {
+    margin-bottom: 10px;
+}
+
+#logger-container {
+    position:relative;
+    top: 10px;
+}
+
 #left-box {
     margin-left: 5%;
     float: left;
@@ -64,7 +76,27 @@ body, #boxes-container {
     float: right;
 }
 
-#word1, #word2, #gameName {
+#input-boxes {
+    margin-bottom: 10px;
+    height: 100px;
+    margin-bottom: -20px;
+}
+
+#inbox2 {
+    margin-right: 5%;
+    float: right;
+}
+
+#inbox1 {
+    margin-left: 5%;
+    float: left;
+}
+
+#wordLogger {
+    margin-top: -20px;
+}
+
+#word1, #word2, #gameName, #word-log, #inbox1, #inbox2 {
     text-align: center;
     color: antiquewhite;
     font-weight: bold;
@@ -82,6 +114,23 @@ body, #boxes-container {
     padding: 11px;
 }
 
+h3 {
+    text-align: center;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: large;
+    text-shadow:
+        -1px -1px 0 #7798b1,
+        0   -1px 0 #7798b1,
+        1px -1px 0 #3c3b6e,
+        1px  0   0 #3c3b6e,
+        1px  1px 0 #3c3b6e,
+        0    1px 0 #3c3b6e,
+        -1px  1px 0 #3c3b6e,
+        -1px  0   0 #3c3b6e;
+    letter-spacing: 2px;
+}
+
 #button-section {
     border-radius: 0px 0px 5px 5px;
     border-top: none;
@@ -91,7 +140,7 @@ body, #boxes-container {
     padding-top: 58px;
 }
 
-#random-button, .button {
+.button {
     text-align: center;
     max-height: 25px;
 }
@@ -111,6 +160,15 @@ body, #boxes-container {
     border-left: #c8e7f2 solid 2px;
     border-bottom: solid #7798b1;
     border-right: solid #7798b1;
+}
+
+.button:active {
+    border-bottom: #c8e7f2 solid 2px;
+    border-right: #c8e7f2 solid 2px;
+    border-top: solid #7798b1;
+    border-left: solid #7798b1;
+    color: antiquewhite;
+    filter: brightness(85%)
 }
 
 @media screen and (max-width:600px) {
