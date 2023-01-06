@@ -10,6 +10,9 @@ function getRandomInt(max) {
 function getWords() {
   document.getElementById("word1").innerText = nouns[getRandomInt(nouns.length)];
   document.getElementById("word2").innerText = nouns[getRandomInt(nouns.length)];
+  document.getElementById("word-log").innerText = "";
+  document.getElementById("inbox1").value = "";
+  document.getElementById("inbox2").value = "";
 }
 
 function logWords() {
