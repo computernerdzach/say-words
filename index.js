@@ -1,6 +1,7 @@
 import { nouns } from "./words.js";
 
 document.getElementById("randomButton").addEventListener("click", getWords);
+document.getElementById("wordLogger").addEventListener("click", logWords);
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
@@ -9,5 +10,14 @@ function getRandomInt(max) {
 function getWords() {
   document.getElementById("word1").innerText = nouns[getRandomInt(nouns.length)];
   document.getElementById("word2").innerText = nouns[getRandomInt(nouns.length)];
+}
+
+function logWords() {
+  let word1 = document.getElementById("inbox1").value;
+  let word2 = document.getElementById("inbox2").value;
+  let wordString = "";
+
+  wordString = word1 + " / " +word2;
+  document.getElementById("word-log").innerText = (wordString)
 }
 
