@@ -22,5 +22,8 @@ function logWords() {
 
   wordString = word1 + " / " +word2;
   document.getElementById("word-log").innerText = (wordString)
+  
+  document.getElementById("inbox1").value = "";
+  document.getElementById("inbox2").value = "";
 }
 
