@@ -135,7 +135,7 @@ hr {
 }
 
 #tracker {
-    color: antiquewhite;
+    color: white;
     font-weight:100;
     text-shadow:
         -.5px -.5px 0 #F8FAD7 ,
@@ -150,7 +150,7 @@ hr {
 
 #word1, #word2, #gameName, #word-log, #inbox1, #inbox2 {
     text-align: center;
-    color: antiquewhite;
+    color: white;
     font-weight: bold;
     font-size: large;
     text-shadow:
