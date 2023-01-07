@@ -27,20 +27,21 @@ body {
     width: 80vw;
     max-width: 600px;
     border-radius: 5px;
-    /* height: 40vh; */
-    height: 358px;
+    height: 350px;
 }
 
 body, #boxes-container {
     margin-top: 10px;
 }
 
-h3 {
+h2 {
     text-align: center;
-    color: antiquewhite;
     opacity: 95%;
     font-weight:normal;
-    font-size: large;
+    letter-spacing: 1px;
+}
+
+h1, h2 {
     text-shadow:
         -.5px -.5px 0 #F8FAD7 ,
         0   -.5px 0 #F8FAD7 ,
@@ -50,11 +51,24 @@ h3 {
         0    .5px 0 #FAD9D7,
         -.5px  .5px 0 #FAD9D7,
         -.5px  0   0 #FAD9D7;
-    letter-spacing: 2px;
 }
 
 img {
-    filter: invert(95%);
+    filter: invert(100%);
+    opacity: 98%;
+}
+
+hr {
+    /* width: 95%; */
+    margin: auto;
+    visibility: hidden;
+}
+
+#randomButton {
+    padding: 0;
+    /* margin: 0; */
+    position: relative;
+    top: -45px;
 }
 
 #boxes-container {
@@ -120,6 +134,20 @@ img {
     margin-top: -20px;
 }
 
+#tracker {
+    color: antiquewhite;
+    font-weight:100;
+    text-shadow:
+        -.5px -.5px 0 #F8FAD7 ,
+        0   -.5px 0 #F8FAD7 ,
+        .5px -.5px 0 #FAD9D7,
+        .5px  0   0 #FAD9D7,
+        .5px  .5px 0 #FAD9D7,
+        0    .5px 0 #FAD9D7,
+        -.5px  .5px 0 #FAD9D7,
+        -.5px  0   0 #FAD9D7;
+}
+
 #word1, #word2, #gameName, #word-log, #inbox1, #inbox2 {
     text-align: center;
     color: antiquewhite;
@@ -139,7 +167,6 @@ img {
 }
 
 #bottom-text {
-    /* margin: auto; */
     float: bottom;
     margin-bottom: 2%;
     margin-left: 2%;
@@ -147,13 +174,14 @@ img {
     left: 0;
     text-align: left;
     position: absolute;
+    color: white;
+    opacity: 98%;
+    font-size: 14px;
 }
 
 #bottom-text-content {
     text-align: left;
-    padding-left: 10px;
-    color: black;
-    filter: invert(95%);
+    padding-left: 12px;
     text-shadow: none;
 }
 
@@ -177,9 +205,18 @@ img {
     margin-bottom: 8px;
 }
 
-.button {
-    text-align: center;
-    max-height: 25px;
+#word1, #word2, #inbox1, #inbox2, #word-log {
+    color: #4E9CAF;
+    text-shadow:
+        -.25px -.25px 0 #c8e7f2 ,
+        0   -.25px 0 #c8e7f2 ,
+        .25px -.25px 0 #7798b1,
+        .25px  0   0 #7798b1,
+        .25px  .25px 0 #7798b1,
+        0    .25px 0 #7798b1,
+        -.25px  .25px 0 #7798b1,
+        -.25px  0   0 #7798b1;
+    font-size: 18px;
 }
 
 .button {
@@ -193,6 +230,7 @@ img {
     line-height: 25px;
     margin: auto;
     line-height: 1em;
+    text-align: center;
     border-top: #c8e7f2 solid 2px;
     border-left: #c8e7f2 solid 2px;
     border-bottom: solid #7798b1;
@@ -209,7 +247,7 @@ img {
 }
 
 @media screen and (max-width:600px) {
-    #word1, #word2 {
+    #word1, #word2, #wordlog, #inbox1, #inbox2 {
         font-size: small;
         vertical-align: middle;
         padding: 13px;
@@ -218,7 +256,7 @@ img {
 }
 
 @media screen and (max-width:480px) {
-    #word1, #word2 {
+    #word1, #word2, #word-log, #inbox1, #inbox2 {
         font-size:x-small;
         padding: 15px;
     }
