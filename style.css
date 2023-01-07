@@ -35,6 +35,28 @@ body, #boxes-container {
     margin-top: 10px;
 }
 
+h3 {
+    text-align: center;
+    color: antiquewhite;
+    opacity: 95%;
+    font-weight:normal;
+    font-size: large;
+    text-shadow:
+        -.5px -.5px 0 #F8FAD7 ,
+        0   -.5px 0 #F8FAD7 ,
+        .5px -.5px 0 #FAD9D7,
+        .5px  0   0 #FAD9D7,
+        .5px  .5px 0 #FAD9D7,
+        0    .5px 0 #FAD9D7,
+        -.5px  .5px 0 #FAD9D7,
+        -.5px  0   0 #FAD9D7;
+    letter-spacing: 2px;
+}
+
+img {
+    filter: invert(95%);
+}
+
 #boxes-container {
     max-width: 600px;
     height: 80px;
@@ -104,33 +126,35 @@ body, #boxes-container {
     font-weight: bold;
     font-size: large;
     text-shadow:
-        -1px -1px 0 #7798b1,
-        0   -1px 0 #7798b1,
-        1px -1px 0 #3c3b6e,
-        1px  0   0 #3c3b6e,
-        1px  1px 0 #3c3b6e,
-        0    1px 0 #3c3b6e,
-        -1px  1px 0 #3c3b6e,
-        -1px  0   0 #3c3b6e;
+        -.5px -.5px 0 #F8FAD7 ,
+        0   -.5px 0 #F8FAD7 ,
+        .5px -.5px 0 #FAD9D7,
+        .5px  0   0 #FAD9D7,
+        .5px  .5px 0 #FAD9D7,
+        0    .5px 0 #FAD9D7,
+        -.5px  .5px 0 #FAD9D7,
+        -.5px  0   0 #FAD9D7;
     letter-spacing: 2px;
     padding: 11px;
 }
 
-h3 {
-    text-align: center;
-    color: antiquewhite;
-    font-weight: bold;
-    font-size: large;
-    text-shadow:
-        -1px -1px 0 #7798b1,
-        0   -1px 0 #7798b1,
-        1px -1px 0 #3c3b6e,
-        1px  0   0 #3c3b6e,
-        1px  1px 0 #3c3b6e,
-        0    1px 0 #3c3b6e,
-        -1px  1px 0 #3c3b6e,
-        -1px  0   0 #3c3b6e;
-    letter-spacing: 2px;
+#bottom-text {
+    /* margin: auto; */
+    float: bottom;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    position: absolute;
+}
+
+#bottom-text-content {
+    text-align: left;
+    padding-left: 10px;
+    color: black;
+    filter: invert(95%);
+    text-shadow: none;
 }
 
 #button-section {
@@ -140,6 +164,17 @@ h3 {
     max-width: 600px;
     padding-bottom: 8px;
     padding-top: 58px;
+}
+
+#git-image {
+    max-width:45px;
+    max-height:45px;
+}
+
+#icon-image {
+    max-width:30px;
+    max-height:30px;
+    margin-bottom: 8px;
 }
 
 .button {
