@@ -15,34 +15,17 @@ html {
     height: 100%;
     background: linear-gradient(150deg, antiquewhite, lightblue);
     background-repeat: no-repeat;
+		filter: opacity(85%);
 }
 
 body {
-    background-color: lightblue;
-    border-bottom: solid #7798b1;
-    border-right: solid #7798b1;
-    border-left: solid #c8e7f2;
-    border-top: solid #c8e7f2;
     width: 80vw;
     max-width: 600px;
-    border-radius: 5px;
     height: 360px;
 }
 
 body, #boxes-container {
     margin-top: 10px;
-}
-
-h1 {
-	text-shadow:
-        -.5px -.5px 0 white ,
-        0   -.5px 0 white ,
-        .5px -.5px 0 #c9c062,
-        .5px  0   0 #c9c062,
-        .5px  .5px 0 #c9c062,
-        0    .5px 0 #c9c062,
-        -.5px  .5px 0 #c9c062,
-        -.5px  0   0 #c9c062
 }
 
 h2 {
@@ -54,7 +37,7 @@ h2 {
 
 img {
     filter: invert(100%);
-    opacity: 98%;
+    opacity: 95%;
 }
 
 hr {
@@ -79,13 +62,10 @@ hr {
     margin: auto;
     margin-top: 10px;
     width: 40%;
-    border-radius: 5px;
     height: 55px;
-    border-top: solid #7798b1;
-    border-left: solid #7798b1;
-    border-right: solid #c8e7f2;
-    border-bottom: solid #c8e7f2;
-    background: linear-gradient(-30deg, #f2f3f4, #c8e7f2);
+    background-color: white;
+		opacity: 85%;
+		border: none;
 }
 
 #inbox1, #inbox2 {
@@ -112,9 +92,7 @@ hr {
 }
 
 #input-boxes {
-    margin-bottom: 10px;
     height: 100px;
-    margin-bottom: -20px;
 }
 
 #inbox2 {
@@ -132,33 +110,17 @@ hr {
 }
 
 #tracker {
-    color: antiquewhite;
+		color: white;
+		opacity: 85%;
     font-weight:100;
-    text-shadow:
-        -.5px -.5px 0 white ,
-        0   -.5px 0 white ,
-        .5px -.5px 0 #c9c062,
-        .5px  0   0 #c9c062,
-        .5px  .5px 0 #c9c062,
-        0    .5px 0 #c9c062,
-        -.5px  .5px 0 #c9c062,
-        -.5px  0   0 #c9c062;
 }
 
 #word1, #word2, #gameName, #word-log, #inbox1, #inbox2 {
     text-align: center;
-    color: antiquewhite;
+    color: white;
+		opacity: 85%;
     font-weight: bold;
     font-size: large;
-    text-shadow:
-        -.5px -.5px 0 white ,
-        0   -.5px 0 white ,
-        .5px -.5px 0 #c9c062,
-        .5px  0   0 #c9c062,
-        .5px  .5px 0 #c9c062,
-        0    .5px 0 #c9c062,
-        -.5px  .5px 0 #c9c062,
-        -.5px  0   0 #c9c062;
     letter-spacing: 2px;
     padding: 11px;
 }
@@ -171,7 +133,7 @@ hr {
     left: 0;
     position: absolute;
     color: white;
-    opacity: 98%;
+    opacity: 95%;
     font-size: 12px;
 }
 
@@ -180,7 +142,6 @@ hr {
 }
 
 #button-section {
-    border-radius: 0px 0px 5px 5px;
     border-top: none;
     margin: auto;
     max-width: 600px;
@@ -202,16 +163,7 @@ hr {
 }
 
 #word1, #word2, #inbox1, #inbox2, #word-log {
-    color: #4E9CAF;
-    text-shadow:
-        -.25px -.25px 0 #c8e7f2 ,
-        0   -.25px 0 #c8e7f2 ,
-        .25px -.25px 0 #7798b1,
-        .25px  0   0 #7798b1,
-        .25px  .25px 0 #7798b1,
-        0    .25px 0 #7798b1,
-        -.25px  .25px 0 #7798b1,
-        -.25px  0   0 #7798b1;
+    color: #778899;
     font-size: 18px;
 }
 
@@ -219,31 +171,21 @@ hr {
     display: block;
     width: 115px;
     height: 25px;
-    max-width: 115px;
-    background: #4E9CAF;
-    border-radius: 5px;
-    color: antiquewhite;
+    background-color: lightblue;
+    color: white;
     line-height: 25px;
     margin: auto;
     line-height: 1em;
     text-align: center;
-    border-top: #c8e7f2 solid 2px;
-    border-left: #c8e7f2 solid 2px;
-    border-bottom: solid #7798b1;
-    border-right: solid #7798b1;
+		border: 0.5px #778899 solid;
 }
 
 .button:active {
-    border-bottom: #c8e7f2 solid 2px;
-    border-right: #c8e7f2 solid 2px;
-    border-top: solid #7798b1;
-    border-left: solid #7798b1;
-    color: antiquewhite;
     filter: brightness(85%)
 }
 
 @media screen and (max-width:600px) {
-    #word1, #word2, #wordlog, #inbox1, #inbox2 {
+    #word1, #word2, #word-log, #inbox1, #inbox2 {
         font-size: small;
         vertical-align: middle;
         padding: 13px;
