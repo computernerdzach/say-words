@@ -34,23 +34,23 @@ body, #boxes-container {
     margin-top: 10px;
 }
 
+h1 {
+	text-shadow:
+        -.5px -.5px 0 white ,
+        0   -.5px 0 white ,
+        .5px -.5px 0 #c9c062,
+        .5px  0   0 #c9c062,
+        .5px  .5px 0 #c9c062,
+        0    .5px 0 #c9c062,
+        -.5px  .5px 0 #c9c062,
+        -.5px  0   0 #c9c062
+}
+
 h2 {
     text-align: center;
     opacity: 95%;
     font-weight:normal;
     letter-spacing: 1px;
-}
-
-h1, h2 {
-    text-shadow:
-        -.5px -.5px 0 #F8FAD7 ,
-        0   -.5px 0 #F8FAD7 ,
-        .5px -.5px 0 #FAD9D7,
-        .5px  0   0 #FAD9D7,
-        .5px  .5px 0 #FAD9D7,
-        0    .5px 0 #FAD9D7,
-        -.5px  .5px 0 #FAD9D7,
-        -.5px  0   0 #FAD9D7;
 }
 
 img {
@@ -135,33 +135,33 @@ hr {
 }
 
 #tracker {
-    color: white;
+    color: antiquewhite;
     font-weight:100;
     text-shadow:
-        -.5px -.5px 0 #F8FAD7 ,
-        0   -.5px 0 #F8FAD7 ,
-        .5px -.5px 0 #FAD9D7,
-        .5px  0   0 #FAD9D7,
-        .5px  .5px 0 #FAD9D7,
-        0    .5px 0 #FAD9D7,
-        -.5px  .5px 0 #FAD9D7,
-        -.5px  0   0 #FAD9D7;
+        -.5px -.5px 0 white ,
+        0   -.5px 0 white ,
+        .5px -.5px 0 #c9c062,
+        .5px  0   0 #c9c062,
+        .5px  .5px 0 #c9c062,
+        0    .5px 0 #c9c062,
+        -.5px  .5px 0 #c9c062,
+        -.5px  0   0 #c9c062;
 }
 
 #word1, #word2, #gameName, #word-log, #inbox1, #inbox2 {
     text-align: center;
-    color: white;
+    color: antiquewhite;
     font-weight: bold;
     font-size: large;
     text-shadow:
-        -.5px -.5px 0 #F8FAD7 ,
-        0   -.5px 0 #F8FAD7 ,
-        .5px -.5px 0 #FAD9D7,
-        .5px  0   0 #FAD9D7,
-        .5px  .5px 0 #FAD9D7,
-        0    .5px 0 #FAD9D7,
-        -.5px  .5px 0 #FAD9D7,
-        -.5px  0   0 #FAD9D7;
+        -.5px -.5px 0 white ,
+        0   -.5px 0 white ,
+        .5px -.5px 0 #c9c062,
+        .5px  0   0 #c9c062,
+        .5px  .5px 0 #c9c062,
+        0    .5px 0 #c9c062,
+        -.5px  .5px 0 #c9c062,
+        -.5px  0   0 #c9c062;
     letter-spacing: 2px;
     padding: 11px;
 }
