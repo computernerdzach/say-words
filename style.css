@@ -15,7 +15,6 @@ html {
     height: 100%;
     background: linear-gradient(150deg, antiquewhite, lightblue);
     background-repeat: no-repeat;
-    
 }
 
 body {
@@ -27,7 +26,7 @@ body {
     width: 80vw;
     max-width: 600px;
     border-radius: 5px;
-    height: 350px;
+    height: 360px;
 }
 
 body, #boxes-container {
@@ -180,9 +179,7 @@ hr {
 }
 
 #bottom-text-content {
-    text-align: left;
     padding-left: 12px;
-    text-shadow: none;
 }
 
 #button-section {
@@ -259,6 +256,13 @@ hr {
     #word1, #word2, #word-log, #inbox1, #inbox2 {
         font-size:x-small;
         padding: 15px;
+    }
+    
+}
+
+@media screen and (max-height:465px) {
+    #bottom-text {
+        top: 385px;
     }
     
 }
