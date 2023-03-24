@@ -20,12 +20,10 @@ function logWords() {
   let word1, word2;
 
   if (document.getElementById("inbox1").value != "" && document.getElementById("inbox1").value != undefined) {
-    console.log(document.getElementById("inbox1").value)
     word1 = document.getElementById("inbox1").value;
   } else return;
   
   if (document.getElementById("inbox2").value != "" && document.getElementById("inbox2").value != undefined) {
-    console.log(document.getElementById("inbox2").value)
     word2 = document.getElementById("inbox2").value;
   } else return;
 
