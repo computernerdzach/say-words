@@ -28,7 +28,9 @@ function logWords() {
   } else return;
 
   if (document.getElementById('word-log').innerText !== "" && document.getElementById('word-log').innerText != undefined) {
-    index = Number(document.getElementById("word-log").innerText.substring(0, document.getElementById("word-log").innerText.indexOf(":"))) + 1;
+    let scoreArray = document.getElementById("word-log").innerText.split("\n");
+    let lastElement = scoreArray[scoreArray.length - 1];
+    index = Number(lastElement.substring(0, lastElement.indexOf(":"))) + 1;
     wordString = document.getElementById("word-log").innerText + '\n' + index + ": " + word1 + " / " +word2;
   } else {
     index = 1;
@@ -36,7 +38,6 @@ function logWords() {
   }
   
   document.getElementById("word-log").innerText = (wordString)
-  
   document.getElementById("inbox1").value = "";
   document.getElementById("inbox2").value = "";
 }
