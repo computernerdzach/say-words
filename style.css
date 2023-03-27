@@ -74,9 +74,10 @@ hr {
 
 #word-log {
     margin-bottom: 10px;
-    overflow: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
     width: 60%;
+    height: 120px;
 }
 
 #logger-container {

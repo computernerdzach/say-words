@@ -17,7 +17,7 @@ function getWords() {
 
 function logWords() {
 
-  let word1, word2;
+  let word1, word2, wordString, index;
 
   if (document.getElementById("inbox1").value != "" && document.getElementById("inbox1").value != undefined) {
     word1 = document.getElementById("inbox1").value;
@@ -27,16 +27,13 @@ function logWords() {
     word2 = document.getElementById("inbox2").value;
   } else return;
 
-  let wordString = "";
   if (document.getElementById('word-log').innerText !== "" && document.getElementById('word-log').innerText != undefined) {
-    wordString = document.getElementById("word-log").innerText;
-    wordString = wordString + '\n' + word1 + " / " +word2;
+    index = Number(document.getElementById("word-log").innerText.substring(0, document.getElementById("word-log").innerText.indexOf(":"))) + 1;
+    wordString = document.getElementById("word-log").innerText + '\n' + index + ": " + word1 + " / " +word2;
   } else {
-    wordString = word1 + " / " +word2;
+    index = 1;
+    wordString = index + ": " + word1 + " / " + word2;
   }
-  
-  // console.log(wordString);
-
   
   document.getElementById("word-log").innerText = (wordString)
   
