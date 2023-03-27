@@ -28,8 +28,16 @@ function logWords() {
   } else return;
 
   let wordString = "";
+  if (document.getElementById('word-log').innerText !== "" && document.getElementById('word-log').innerText != undefined) {
+    wordString = document.getElementById("word-log").innerText;
+    wordString = wordString + '\n' + word1 + " / " +word2;
+  } else {
+    wordString = word1 + " / " +word2;
+  }
+  
+  // console.log(wordString);
 
-  wordString = word1 + " / " +word2;
+  
   document.getElementById("word-log").innerText = (wordString)
   
   document.getElementById("inbox1").value = "";
