@@ -78,6 +78,8 @@ hr {
     overflow-x: hidden;
     width: 60%;
     height: 120px;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 #logger-container {
