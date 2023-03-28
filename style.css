@@ -15,7 +15,7 @@ html {
     height: 100%;
     background: linear-gradient(150deg, antiquewhite, lightblue);
     background-repeat: no-repeat;
-		filter: opacity(85%);
+    filter: opacity(85%);
 }
 
 body {
@@ -64,8 +64,9 @@ hr {
     width: 40%;
     height: 55px;
     background-color: white;
-		opacity: 85%;
-		border: none;
+    opacity: 85%;
+    border: none;
+    border-radius: 20px 0 20px 0;
 }
 
 #inbox1, #inbox2 {
@@ -115,19 +116,20 @@ hr {
 }
 
 #tracker {
-		color: white;
-		opacity: 85%;
+    color: white;
+    opacity: 85%;
     font-weight:100;
 }
 
 #word1, #word2, #gameName, #word-log, #inbox1, #inbox2 {
     text-align: center;
     color: white;
-		opacity: 85%;
+    opacity: 85%;
     font-weight: bold;
     font-size: large;
     letter-spacing: 2px;
     padding: 11px;
+    border-radius: 20px 0 20px 0;
 }
 
 #bottom-text {
@@ -183,7 +185,7 @@ hr {
     margin: auto;
     line-height: 1em;
     text-align: center;
-		border: 0.5px #778899 solid;
+    border: 0.5px #778899 solid;
 }
 
 .button:active {
